@@ -1,0 +1,64 @@
+[OK] Load SEAL context
+Load dataset from {} /home/haochu/Desktop/project/datasets/CICIDS2017/custom/dataset_balance_splited_2_0.pickle
+[OK] Init model
+[OK] Connected to server
+[OK] Server set this client as worker
+[OK] Request for init model
+[OK] Recieve model from server
+Round 1:
+Train with 91052 samples
+Epoch:  0 | train loss: 217.0265
+Epoch:  1 | train loss: 123.3165
+Epoch:  2 | train loss: 108.8140
+Epoch:  3 | train loss: 101.0036
+Epoch:  4 | train loss: 94.6844
+Epoch:  5 | train loss: 89.7949
+Epoch:  6 | train loss: 85.4198
+Epoch:  7 | train loss: 81.9649
+Epoch:  8 | train loss: 78.2300
+Epoch:  9 | train loss: 76.2060
+Local test
+Accuracy: 0.9792
+Label:  0 | precision: 0.9722 % | recall: 0.9866 % | F1: 0.9793 | support: 116901
+Label:  1 | precision: 0.9864 % | recall: 0.9718 % | F1: 0.9791 | support: 117233
+[OK] Encypted weight, size: 32.54 MB
+[OK] Send encrypted weight to server for aggregate
+[OK] Recieve model from server
+Round 2:
+Train with 91052 samples
+Epoch:  0 | train loss: 78.3187
+Epoch:  1 | train loss: 75.8089
+Epoch:  2 | train loss: 73.5046
+Epoch:  3 | train loss: 71.4653
+Epoch:  4 | train loss: 70.0365
+Epoch:  5 | train loss: 68.3524
+Epoch:  6 | train loss: 67.1979
+Epoch:  7 | train loss: 66.4717
+Epoch:  8 | train loss: 65.6450
+Epoch:  9 | train loss: 64.2874
+Local test
+Accuracy: 0.9801
+Label:  0 | precision: 0.9699 % | recall: 0.9909 % | F1: 0.9803 | support: 116901
+Label:  1 | precision: 0.9907 % | recall: 0.9694 % | F1: 0.9799 | support: 117233
+[OK] Encypted weight, size: 32.54 MB
+[OK] Send encrypted weight to server for aggregate
+[OK] Recieve model from server
+Round 3:
+Train with 91051 samples
+Epoch:  0 | train loss: 67.6206
+Epoch:  1 | train loss: 66.4758
+Epoch:  2 | train loss: 65.8844
+Epoch:  3 | train loss: 64.6897
+Epoch:  4 | train loss: 63.2209
+Epoch:  5 | train loss: 63.0672
+Epoch:  6 | train loss: 61.7250
+Epoch:  7 | train loss: 61.6436
+Epoch:  8 | train loss: 60.9287
+Epoch:  9 | train loss: 60.2796
+Local test
+Accuracy: 0.9789
+Label:  0 | precision: 0.9855 % | recall: 0.9721 % | F1: 0.9788 | support: 116901
+Label:  1 | precision: 0.9726 % | recall: 0.9857 % | F1: 0.9791 | support: 117233
+[OK] Encypted weight, size: 32.54 MB
+[OK] Send encrypted weight to server for aggregate
+[OK] Recieve model from server
